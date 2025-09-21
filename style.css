@@ -1,6 +1,6 @@
 :root {
-  --pink: #438cad;
-  --bg: #0a0a0a;
+  --green: #295f0ebd;
+  --bg: #295f0ebd;
   --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
 
@@ -46,13 +46,13 @@ body {
   font-size: 1.4rem;
 }
 .hero a {
-  color: var(--pink);
+  color: var(--green);
   background-color: white;
   box-shadow: var(--shadow);
 }
 
 .hero a:hover {
-  background-color: var(--pink);
+  background-color: var(--green);
   color: white;
 }
 
@@ -86,12 +86,10 @@ body {
 }
 
 .home h2,
-.info h2,
 .story h2,
-.gallery h2,
 .rsvp h2,
 .gifts h2 {
-  color: var(--pink);
+  color: var(--green);
   font-family: "Sacramento";
   font-size: 5rem;
   font-weight: bold;
@@ -115,7 +113,7 @@ body {
 .home .couple h3 {
   font-family: "Sacramento";
   font-size: 2.4rem;
-  color: var(--pink);
+  color: var(--green);
 }
 
 .home .couple img {
@@ -136,14 +134,32 @@ body {
 
 .home .heart i {
   margin: auto;
-  color: var(--pink);
+  color: var(--green);
 }
 
 .info {
-  background-color: var(--bg);
+  /* background-color: var(--bg); */
+  background-image: url(img/IMG_20250920_000959.jpg);
+  background-size: cover; /* ukuran asli */
+  /* background-repeat: no-repeat; jangan diulang */
+  background-position: center; /* posisikan di tengah atas */
+  /* opacity: 0.8; */
   color: white;
   padding-top: 10rem;
   padding-bottom: 8rem;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 50;
+}
+
+.info h2 {
+  color: #fff;
+  font-family: "Sacramento";
+  font-size: 5rem;
+  font-weight: bold;
 }
 
 .info .alamat {
@@ -181,7 +197,7 @@ body {
 .gallery,
 .rsvp,
 .gifts {
-  padding-top: 10rem;
+  padding-top: 5rem;
   padding-bottom: 8rem;
 }
 
@@ -311,7 +327,13 @@ body {
 }
 
 .gallery {
-  background-color: #d4f3ff;
+  background-color: var(--green);
+}
+.gallery h2 {
+  color: #fff;
+  font-family: "Sacramento";
+  font-size: 5rem;
+  font-weight: bold;
 }
 
 .rsvp {
@@ -329,20 +351,20 @@ body {
 }
 
 .rsvp button {
-  background-color: var(--pink);
+  background-color: var(--green);
   color: white;
-  border: 1px solid var(--pink);
+  border: 1px solid var(--green);
 }
 
 .rsvp button:hover {
   background-color: white;
-  color: var(--pink);
+  color: var(--green);
   border: 1px solid white;
 }
 
 footer {
   padding: 3rem;
-  background-color: var(--pink);
+  background-color: var(--green);
   color: white;
 }
 footer a {
