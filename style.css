@@ -22,9 +22,25 @@ body {
   background-position: center;
 }
 
+/* .hero {
+  min-height: 95vh !important;
+  justify-content: flex-end;
+} */
+.judul-atas {
+  position: absolute;
+  top: 20px; /* atur jarak dari atas */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3rem;
+  color: white;
+  text-shadow: var(--shadow);
+  z-index: 10;
+  font-family: "Sacramento", cursive;
+  font-size: 6rem;
+}
 .hero {
-  min-height: 100vh;
-  /* justify-content: flex-end; */
+  min-height: 100vh !important;
+  position: relative; /* penting supaya absolute h1 nempel ke hero */
 }
 
 .hero h1,
@@ -33,10 +49,10 @@ body {
   text-shadow: var(--shadow);
 }
 
-.hero h1 {
+/* .hero h1 {
   font-family: "Sacramento", cursive;
   font-size: 6rem;
-}
+} */
 
 .hero h4 {
   font-size: 1.6rem;
@@ -70,6 +86,7 @@ body {
   font-family: "Sacramento", cursive;
   font-size: 3.2rem;
   font-weight: bold;
+  color: var(--green);
 }
 
 .mynavbar .nav-link {
