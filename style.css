@@ -337,17 +337,33 @@ body {
 }
 
 .rsvp {
-  background-color: var(--bg);
+  /* background-color: var(--bg); */
+  /* background-color: var(--bg); */
+  background-image: url(img/bg.jpeg);
+  background-size: cover; /* ukuran asli */
+  /* background-repeat: no-repeat; jangan diulang */
+  background-position: center; /* posisikan di tengah atas */
+  /* opacity: 0.8; */
+  color: white;
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 50;
 }
 .rsvp h2 {
   font-size: 4.5rem;
+  color: var(--green);
 }
 
 .rsvp p {
-  color: white;
+  color: var(--green);
 }
 .rsvp form label {
-  color: white;
+  color: var(--green);
 }
 
 .rsvp button {
