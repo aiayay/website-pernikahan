@@ -40,7 +40,7 @@ body {
 } */
 .hero {
   min-height: 100vh !important;
-  position: relative; /* penting supaya absolute h1 nempel ke hero */
+  /* position: relative; penting supaya absolute h1 nempel ke hero */
 }
 
 .hero h1,
