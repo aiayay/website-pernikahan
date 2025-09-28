@@ -1,6 +1,6 @@
 :root {
-  /* --green: #295f0ebd;
-  --bg: #295f0ebd; */
+  --green: #295f0ebd;
+  --bg: #295f0ebd;
   --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
 
@@ -51,7 +51,7 @@ body {
 
 .hero h1 {
   font-family: "Sacramento", cursive;
-  font-size: 10rem;
+  font-size: 8rem;
 }
 
 .hero h4 {
