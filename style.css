@@ -22,10 +22,10 @@ body {
   background-position: center;
 }
 
-/* .hero {
+.hero {
   min-height: 95vh !important;
   justify-content: flex-end;
-} */
+}
 .judul-atas {
   position: absolute;
   top: 20px;
