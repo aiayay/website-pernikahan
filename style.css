@@ -28,7 +28,7 @@ body {
 } */
 .judul-atas {
   position: absolute;
-  top: 20px; 
+  top: 20px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 3rem;
@@ -38,10 +38,10 @@ body {
   font-family: "Sacramento", cursive;
   font-size: 6rem;
 }
-.hero {
+/* .hero {
   min-height: 90vh !important;
-  /* position: relative; */
-}
+   position: relative;
+} */
 
 .hero h1,
 .hero h4,
